@@ -10,6 +10,8 @@ class SajatUser(models.Model):
     #user = models.OneToOneField(User)
 
     azonosito=models.CharField(max_length=11)
+    nev=models.CharField(max_length=255)
+    pontszam=models.CharField(max_length=255)
 
     class Meta:
         """Meta definition for SajatUser."""
