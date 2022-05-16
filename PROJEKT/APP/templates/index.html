@@ -27,12 +27,14 @@
     <form method="POST">
         {% csrf_token %}
         <p>NÉV:</p>
-        <input type="text" name="név" id="">
+        <input type="text" name="nev" id="">
         <p>AZONOSÍTÓ:</p>
         <input type="number" name="diak_azonos" id="">
         <button type="submit">Küld</button>
     </form>
         
+
+    {{ userneve }}
 </body>
 
 </html>
