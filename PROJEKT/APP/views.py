@@ -17,6 +17,9 @@ def index(request):
         print(lista)
         talalat = lista[0]
         
+    template ="index.html"
+    context={}
+    return render(request, template, context)
         #Kerdes.objects.create(kerdes=kerdesnev)
 
 
